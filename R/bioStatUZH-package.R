@@ -16,6 +16,7 @@
 #' to check the adequacy of the Weibull model.
 #' 
 #' Most relevant functions: \cr
+#' \code{\link{Aalpha}} \cr
 #' \code{\link{agresti}} \cr                     
 #' \code{\link{behrens.test}} \cr                 
 #' \code{\link{blandAltman}} \cr                 
@@ -43,11 +44,14 @@
 #' \code{\link{confIntRateWald}} \cr             
 #' \code{\link{confIntRateWilson}} \cr           
 #' \code{\link{confIntRiskDiff}} \cr             
-#' \code{\link{confIntRiskRatio}} \cr            
+#' \code{\link{confIntRiskRatio}} \cr
+#' \code{\link{confIntSquareAdd}} \cr     
+#' \code{\link{faganLine}} \cr        
 #' \code{\link{faganPlot}} \cr                   
 #' \code{\link{formatCI}} \cr                    
 #' \code{\link{formatPercent}} \cr               
-#' \code{\link{formatPval}} \cr                  
+#' \code{\link{formatPval}} \cr   
+#' \code{\link{gailSimon}} \cr            
 #' \code{\link{is.wholenumber}} \cr              
 #' \code{\link{jeffreys}} \cr                    
 #' \code{\link{mantelCoxHR}} \cr                 
@@ -70,11 +74,8 @@
 #' \code{\link{tableOR}} \cr                     
 #' \code{\link{tableRegression}} \cr             
 #' \code{\link{wald}} \cr                        
-#' \code{\link{waldRate}} \cr                    
 #' \code{\link{weibullDiag}} \cr                 
-#' \code{\link{weibullReg}} \cr                  
-#' \code{\link{wilson}} \cr                      
-#' \code{\link{wilsonRate}} \cr\cr
+#' \code{\link{weibullReg}} \cr \cr
 #' 
 #' Reexported functions: \cr
 #' \code{\link[ReplicationSuccess]{ci2p}} \cr
