@@ -32,7 +32,7 @@ Install the package
 remotes::install_github(repo = "EBPI-Biostatistics/biostatUZH", build_vignettes = TRUE)
 ```
 
-Load package and list all provided functions
+Load package and list all provided functions and datasets
 ```r
 library(biostatUZH)
 ls("package:biostatUZH")
