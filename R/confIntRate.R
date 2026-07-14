@@ -77,7 +77,7 @@ confIntRateWilson <- function(x, t, conf.level = 0.95) {
 
 #' @export
 wilsonRate <- function(x, t, conf.level = 0.95){
-    .Deprecated(new = "confIntRateWald")
+    .Deprecated(new = "confIntRateWilson")
     confIntRateWilson(x = x, t = t, conf.level = conf.level)
 }
 
